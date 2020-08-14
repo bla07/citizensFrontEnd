@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/citizensFrontEnd/static/css/main.46413286.chunk.css",
+    "main.css": "/citizensFrontEnd/static/css/main.5746fd22.chunk.css",
     "main.js": "/citizensFrontEnd/static/js/main.047cb576.chunk.js",
     "main.js.map": "/citizensFrontEnd/static/js/main.047cb576.chunk.js.map",
     "runtime-main.js": "/citizensFrontEnd/static/js/runtime-main.e19c4be0.js",
@@ -9,10 +9,10 @@
     "static/js/2.b2997c1e.chunk.js": "/citizensFrontEnd/static/js/2.b2997c1e.chunk.js",
     "static/js/2.b2997c1e.chunk.js.map": "/citizensFrontEnd/static/js/2.b2997c1e.chunk.js.map",
     "index.html": "/citizensFrontEnd/index.html",
-    "precache-manifest.f3fee547e4e5505b1bf856fc2435778d.js": "/citizensFrontEnd/precache-manifest.f3fee547e4e5505b1bf856fc2435778d.js",
+    "precache-manifest.8716ead2424751024c70d319eff19e45.js": "/citizensFrontEnd/precache-manifest.8716ead2424751024c70d319eff19e45.js",
     "service-worker.js": "/citizensFrontEnd/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/citizensFrontEnd/static/css/2.d34346ea.chunk.css.map",
-    "static/css/main.46413286.chunk.css.map": "/citizensFrontEnd/static/css/main.46413286.chunk.css.map",
+    "static/css/main.5746fd22.chunk.css.map": "/citizensFrontEnd/static/css/main.5746fd22.chunk.css.map",
     "static/js/2.b2997c1e.chunk.js.LICENSE.txt": "/citizensFrontEnd/static/js/2.b2997c1e.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/citizensFrontEnd/static/media/1.86762bdb.jpg",
     "static/media/AdminLogin.scss": "/citizensFrontEnd/static/media/19462.39476b51.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.e19c4be0.js",
     "static/css/2.d34346ea.chunk.css",
     "static/js/2.b2997c1e.chunk.js",
-    "static/css/main.46413286.chunk.css",
+    "static/css/main.5746fd22.chunk.css",
     "static/js/main.047cb576.chunk.js"
   ]
 }

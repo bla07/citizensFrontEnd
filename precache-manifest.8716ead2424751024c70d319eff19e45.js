@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d99e6c215732d66d1b287e8d26827099",
+    "revision": "a9a110a8773a8d0668c18d98bb42c6fc",
     "url": "/citizensFrontEnd/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/citizensFrontEnd/static/css/2.d34346ea.chunk.css"
   },
   {
-    "revision": "ce80b5c732081d31b0e9",
-    "url": "/citizensFrontEnd/static/css/main.46413286.chunk.css"
+    "revision": "3d462b40a9a10a093b1b",
+    "url": "/citizensFrontEnd/static/css/main.5746fd22.chunk.css"
   },
   {
     "revision": "38c835dec41010ddd821",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/citizensFrontEnd/static/js/2.b2997c1e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce80b5c732081d31b0e9",
+    "revision": "3d462b40a9a10a093b1b",
     "url": "/citizensFrontEnd/static/js/main.047cb576.chunk.js"
   },
   {
