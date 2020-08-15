@@ -50,34 +50,34 @@ import NotfoundPage from "../pages/NotfoundPage";
 
 const Routes = () => {
 
-  const AppRoute = ({component : Component, layout : Layout, auth: Auth , ...rest}) => (
+  const AppRoute = ({ component: Component, layout: Layout, auth: Auth, ...rest }) => (
     <Auth>
-    <Route {...rest} render={props => (
-      <Layout>
-        <Component {...props} />
-      </Layout>
-    )} />
-  </Auth>
+      <Route {...rest} render={props => (
+        <Layout>
+          <Component {...props} />
+        </Layout>
+      )} />
+    </Auth>
   )
 
   const Navigate = props => (
     <div>
-      <HeadCategory/>
-        {props.children}
-      <Footer/>
+      <HeadCategory />
+      {props.children}
+      <Footer />
     </div>
   )
 
   const noneFoot = props => (
     <div>
-      <HeadCategory/>
-        {props.children}
+      <HeadCategory />
+      {props.children}
     </div>
   )
 
   const AdminMenu = props => (
     <div>
-      <AdminSidebar/>
+      <AdminSidebar />
       {props.children}
     </div>
   )
@@ -85,52 +85,53 @@ const Routes = () => {
   const User = props => (props.children)
 
   const Admin = props => (
-    localStorage.adminToken ? 
-      props.children : <Redirect to ="/login" />
+    localStorage.adminToken ?
+      props.children : <Redirect to="/login" />
   )
 
   const UserIn = props => (
-    localStorage.token ? 
-      props.children : <Redirect to ="/signin" />
+    localStorage.token ?
+      props.children : <Redirect to="/signin" />
   )
 
   return (
     <section>
       <Switch>
-        <AppRoute exact path="/" layout={Navigate} auth={User}  component={HomePage} />
+        <AppRoute exact path="/citizensFrontEnd" layout={Navigate} auth={User} component={HomePage} />
+        <AppRoute exact path="/" layout={Navigate} auth={User} component={HomePage} />
         <AppRoute exact path="/category/:category" layout={Navigate} auth={User} component={CategoryPage} />
 
-        <AppRoute exact path="/about" layout={Navigate} auth={User}  component={AboutPage} />
+        <AppRoute exact path="/about" layout={Navigate} auth={User} component={AboutPage} />
 
         <Route exact path="/signin" component={SignInPage} />
         <Route exact path="/signup" component={SignUpPage} />
         <Route exact path="/forgot" component={ForgotPage} />
 
         <Route exact path="/login" component={AdminLoginPage} />
-        <AppRoute exact path="/dashboard" layout={AdminMenu} auth={Admin} component={AdminNewsPage}/>
-        <AppRoute exact path="/adminapproved" layout={AdminMenu} auth={Admin} component={AdminApprovedPage}/>
-        <AppRoute exact path="/adminrejected" layout={AdminMenu} auth={Admin} component={AdminRejectedPage}/>
-        <AppRoute exact path="/adminreported" layout={AdminMenu} auth={Admin} component={AdminReportedPage}/>
+        <AppRoute exact path="/dashboard" layout={AdminMenu} auth={Admin} component={AdminNewsPage} />
+        <AppRoute exact path="/adminapproved" layout={AdminMenu} auth={Admin} component={AdminApprovedPage} />
+        <AppRoute exact path="/adminrejected" layout={AdminMenu} auth={Admin} component={AdminRejectedPage} />
+        <AppRoute exact path="/adminreported" layout={AdminMenu} auth={Admin} component={AdminReportedPage} />
         <AppRoute exact path="/admindashboardusers" layout={AdminMenu} auth={Admin} component={AdminUserPage} />
 
         <AppRoute exact path="/detail/:id" layout={Navigate} auth={User} component={DetailPage} />
-        <AppRoute exact path="/videoDetail/:id" layout={Navigate} auth={User} component={DetailVideoPage}/>
+        <AppRoute exact path="/videoDetail/:id" layout={Navigate} auth={User} component={DetailVideoPage} />
 
         <AppRoute exact path="/user/:id" layout={noneFoot} auth={User} component={UserNewsPage} />
-        <AppRoute exact path="#" auth={UserIn} component={ProfileNewsPage}/>
-        <AppRoute exact path="/profile/:id/status" auth={UserIn} layout={noneFoot} component={UserStatusPage}/>
+        <AppRoute exact path="#" auth={UserIn} component={ProfileNewsPage} />
+        <AppRoute exact path="/profile/:id/status" auth={UserIn} layout={noneFoot} component={UserStatusPage} />
         <AppRoute exact path="/editprofile/:id" auth={UserIn} layout={noneFoot} component={EditProfilePage} />
-        <AppRoute exact path="/editprofile/:id/delete-account" auth={UserIn} layout={noneFoot} component={DeleteAccountPage}/>
-        <AppRoute exact path="/profile/:id" layout={noneFoot} auth={UserIn} component={ProfileDashboardPage}/>
+        <AppRoute exact path="/editprofile/:id/delete-account" auth={UserIn} layout={noneFoot} component={DeleteAccountPage} />
+        <AppRoute exact path="/profile/:id" layout={noneFoot} auth={UserIn} component={ProfileDashboardPage} />
         <AppRoute exact path="/profile/:id/upload" auth={UserIn} layout={noneFoot} component={FileUploadPage} />
-        
+
         <Route exact path="/verify" component={VerifyPage} />
-        <Route exact path="/verifyforgot" component={VerifyForgotPage}/>
-        <Route exact path="/verifyforgot/succeschange" component={SuccesChangePasswordPage}/>
-        <Route exact path="/greetings" component={NewCitizensPage}/>
+        <Route exact path="/verifyforgot" component={VerifyForgotPage} />
+        <Route exact path="/verifyforgot/succeschange" component={SuccesChangePasswordPage} />
+        <Route exact path="/greetings" component={NewCitizensPage} />
 
         <Route component={NotfoundPage} />
-        
+
       </Switch>
     </section>
   );
