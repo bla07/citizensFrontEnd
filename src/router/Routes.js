@@ -98,37 +98,37 @@ const Routes = () => {
     <section>
       <Switch>
         <AppRoute exact path="/citizensFrontEnd" layout={Navigate} auth={User} component={HomePage} />
-        <AppRoute exact path="/" layout={Navigate} auth={User} component={HomePage} />
-        <AppRoute exact path="/category/:category" layout={Navigate} auth={User} component={CategoryPage} />
+        <AppRoute exact path="/citizensFrontEnd/" layout={Navigate} auth={User} component={HomePage} />
+        <AppRoute exact path="/citizensFrontEnd/category/:category" layout={Navigate} auth={User} component={CategoryPage} />
 
-        <AppRoute exact path="/about" layout={Navigate} auth={User} component={AboutPage} />
+        <AppRoute exact path="/citizensFrontEnd/about" layout={Navigate} auth={User} component={AboutPage} />
 
-        <Route exact path="/signin" component={SignInPage} />
-        <Route exact path="/signup" component={SignUpPage} />
-        <Route exact path="/forgot" component={ForgotPage} />
+        <Route exact path="/citizensFrontEnd/signin" component={SignInPage} />
+        <Route exact path="/citizensFrontEnd/signup" component={SignUpPage} />
+        <Route exact path="/citizensFrontEnd/forgot" component={ForgotPage} />
 
-        <Route exact path="/login" component={AdminLoginPage} />
-        <AppRoute exact path="/dashboard" layout={AdminMenu} auth={Admin} component={AdminNewsPage} />
-        <AppRoute exact path="/adminapproved" layout={AdminMenu} auth={Admin} component={AdminApprovedPage} />
-        <AppRoute exact path="/adminrejected" layout={AdminMenu} auth={Admin} component={AdminRejectedPage} />
-        <AppRoute exact path="/adminreported" layout={AdminMenu} auth={Admin} component={AdminReportedPage} />
-        <AppRoute exact path="/admindashboardusers" layout={AdminMenu} auth={Admin} component={AdminUserPage} />
+        <Route exact path="/citizensFrontEnd/login" component={AdminLoginPage} />
+        <AppRoute exact path="/citizensFrontEnd/dashboard" layout={AdminMenu} auth={Admin} component={AdminNewsPage} />
+        <AppRoute exact path="/citizensFrontEnd/adminapproved" layout={AdminMenu} auth={Admin} component={AdminApprovedPage} />
+        <AppRoute exact path="/citizensFrontEnd/adminrejected" layout={AdminMenu} auth={Admin} component={AdminRejectedPage} />
+        <AppRoute exact path="/citizensFrontEnd/adminreported" layout={AdminMenu} auth={Admin} component={AdminReportedPage} />
+        <AppRoute exact path="/citizensFrontEnd/admindashboardusers" layout={AdminMenu} auth={Admin} component={AdminUserPage} />
 
-        <AppRoute exact path="/detail/:id" layout={Navigate} auth={User} component={DetailPage} />
-        <AppRoute exact path="/videoDetail/:id" layout={Navigate} auth={User} component={DetailVideoPage} />
+        <AppRoute exact path="/citizensFrontEnd/detail/:id" layout={Navigate} auth={User} component={DetailPage} />
+        <AppRoute exact path="/citizensFrontEnd/videoDetail/:id" layout={Navigate} auth={User} component={DetailVideoPage} />
 
-        <AppRoute exact path="/user/:id" layout={noneFoot} auth={User} component={UserNewsPage} />
-        <AppRoute exact path="#" auth={UserIn} component={ProfileNewsPage} />
-        <AppRoute exact path="/profile/:id/status" auth={UserIn} layout={noneFoot} component={UserStatusPage} />
-        <AppRoute exact path="/editprofile/:id" auth={UserIn} layout={noneFoot} component={EditProfilePage} />
-        <AppRoute exact path="/editprofile/:id/delete-account" auth={UserIn} layout={noneFoot} component={DeleteAccountPage} />
-        <AppRoute exact path="/profile/:id" layout={noneFoot} auth={UserIn} component={ProfileDashboardPage} />
-        <AppRoute exact path="/profile/:id/upload" auth={UserIn} layout={noneFoot} component={FileUploadPage} />
+        <AppRoute exact path="/citizensFrontEnd/user/:id" layout={noneFoot} auth={User} component={UserNewsPage} />
+        <AppRoute exact path="/citizensFrontEnd/#" auth={UserIn} component={ProfileNewsPage} />
+        <AppRoute exact path="/citizensFrontEnd/profile/:id/status" auth={UserIn} layout={noneFoot} component={UserStatusPage} />
+        <AppRoute exact path="/citizensFrontEnd/editprofile/:id" auth={UserIn} layout={noneFoot} component={EditProfilePage} />
+        <AppRoute exact path="/citizensFrontEnd/editprofile/:id/delete-account" auth={UserIn} layout={noneFoot} component={DeleteAccountPage} />
+        <AppRoute exact path="/citizensFrontEnd/profile/:id" layout={noneFoot} auth={UserIn} component={ProfileDashboardPage} />
+        <AppRoute exact path="/citizensFrontEnd/profile/:id/upload" auth={UserIn} layout={noneFoot} component={FileUploadPage} />
 
-        <Route exact path="/verify" component={VerifyPage} />
-        <Route exact path="/verifyforgot" component={VerifyForgotPage} />
-        <Route exact path="/verifyforgot/succeschange" component={SuccesChangePasswordPage} />
-        <Route exact path="/greetings" component={NewCitizensPage} />
+        <Route exact path="/citizensFrontEnd/verify" component={VerifyPage} />
+        <Route exact path="/citizensFrontEnd/verifyforgot" component={VerifyForgotPage} />
+        <Route exact path="/citizensFrontEnd/verifyforgot/succeschange" component={SuccesChangePasswordPage} />
+        <Route exact path="/citizensFrontEnd/greetings" component={NewCitizensPage} />
 
         <Route component={NotfoundPage} />
 

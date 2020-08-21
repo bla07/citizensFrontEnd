@@ -17,7 +17,7 @@
     "react-moment": "^0.9.6",
     "react-player": "^1.13.0",
     "react-redux": "^7.1.1",
-    "react-router-dom": "^5.1.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1",
     "react-scroll-up-button": "^1.6.4",
     "react-toastify": "^6.0.8",
@@ -29,7 +29,7 @@
   "scripts": {
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "start": "npm run build:style && react-scripts start",
-    "build": "react-scripts build",
+    "build": "npx react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
