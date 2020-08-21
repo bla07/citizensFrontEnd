@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/citizensFrontEnd/static/css/main.6de8f877.chunk.css",
-    "main.js": "/citizensFrontEnd/static/js/main.b5782dd2.chunk.js",
-    "main.js.map": "/citizensFrontEnd/static/js/main.b5782dd2.chunk.js.map",
+    "main.css": "/citizensFrontEnd/static/css/main.7c399549.chunk.css",
+    "main.js": "/citizensFrontEnd/static/js/main.43fe9638.chunk.js",
+    "main.js.map": "/citizensFrontEnd/static/js/main.43fe9638.chunk.js.map",
     "runtime-main.js": "/citizensFrontEnd/static/js/runtime-main.e19c4be0.js",
     "runtime-main.js.map": "/citizensFrontEnd/static/js/runtime-main.e19c4be0.js.map",
     "static/css/2.d34346ea.chunk.css": "/citizensFrontEnd/static/css/2.d34346ea.chunk.css",
-    "static/js/2.b2997c1e.chunk.js": "/citizensFrontEnd/static/js/2.b2997c1e.chunk.js",
-    "static/js/2.b2997c1e.chunk.js.map": "/citizensFrontEnd/static/js/2.b2997c1e.chunk.js.map",
+    "static/js/2.9f5d5d98.chunk.js": "/citizensFrontEnd/static/js/2.9f5d5d98.chunk.js",
+    "static/js/2.9f5d5d98.chunk.js.map": "/citizensFrontEnd/static/js/2.9f5d5d98.chunk.js.map",
     "index.html": "/citizensFrontEnd/index.html",
-    "precache-manifest.21bd083974fe7ccc1bad202b07685911.js": "/citizensFrontEnd/precache-manifest.21bd083974fe7ccc1bad202b07685911.js",
+    "precache-manifest.2aeed030942d5dbec43820ad0203b2c2.js": "/citizensFrontEnd/precache-manifest.2aeed030942d5dbec43820ad0203b2c2.js",
     "service-worker.js": "/citizensFrontEnd/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/citizensFrontEnd/static/css/2.d34346ea.chunk.css.map",
-    "static/css/main.6de8f877.chunk.css.map": "/citizensFrontEnd/static/css/main.6de8f877.chunk.css.map",
-    "static/js/2.b2997c1e.chunk.js.LICENSE.txt": "/citizensFrontEnd/static/js/2.b2997c1e.chunk.js.LICENSE.txt",
+    "static/css/main.7c399549.chunk.css.map": "/citizensFrontEnd/static/css/main.7c399549.chunk.css.map",
+    "static/js/2.9f5d5d98.chunk.js.LICENSE.txt": "/citizensFrontEnd/static/js/2.9f5d5d98.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/citizensFrontEnd/static/media/1.86762bdb.jpg",
     "static/media/AdminLogin.scss": "/citizensFrontEnd/static/media/19462.39476b51.jpg",
     "static/media/2.jpg": "/citizensFrontEnd/static/media/2.1ea159c0.jpg",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.e19c4be0.js",
     "static/css/2.d34346ea.chunk.css",
-    "static/js/2.b2997c1e.chunk.js",
-    "static/css/main.6de8f877.chunk.css",
-    "static/js/main.b5782dd2.chunk.js"
+    "static/js/2.9f5d5d98.chunk.js",
+    "static/css/main.7c399549.chunk.css",
+    "static/js/main.43fe9638.chunk.js"
   ]
 }
